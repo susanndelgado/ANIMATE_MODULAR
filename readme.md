@@ -216,5 +216,4 @@ __CALL EXAMPLE USING WAYPOINTS IN A GROUP OF ELEMENTS:__
 
 ## License
 
-This Animation Module is MIT license.  
-For more information click [here](https://github.com/susanndelgado/animation_module/blob/master/LICENSE).
+Use it as you wish...
