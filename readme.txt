@@ -3,8 +3,8 @@ Custom Css3 ANIMATION Module
   Works with animate.css and jquery to create css3 animations. 
   Looks for data attribute: data-animation on elements to create animations.
   
-  This script is written for projects I work on daily so you can use it however you may need to modify it 
-  to work for you.
+  This script is written for projects I work on daily so you can use it 
+  however you may need to modify it to work for you.
 
 Requires:
   @required jquery 
