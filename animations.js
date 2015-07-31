@@ -2,6 +2,7 @@
   * @desc Custom Css3 ANIMATION Module 
   * Works with animate.css and jquery to create css3 animations 
   * Looks for data attribute: data-animation on elements to create animations 
+  * may require modifications for your own projects.
   * @author Susan Delgado susanndelgado@gmail.org
   * @required jquery 
   * @required animate.css 
@@ -51,7 +52,7 @@ CALL EXAMPLES
 			        var animaDelay = 0;	
 
        		 		if(Modernizr.csstransitions) {
-	       		 		$(el).css('-webkit-animation-delay', animaDelay+'s');
+	       		 	    $(el).css('-webkit-animation-delay', animaDelay+'s');
 			            $(el).css('-moz-animation-delay',  animaDelay+'s');
 			            $(el).css('-0-animation-delay',  animaDelay+'s');
 			            $(el).css('-ms-animation-delay',  animaDelay+'s');
