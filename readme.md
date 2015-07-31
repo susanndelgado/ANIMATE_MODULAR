@@ -32,7 +32,7 @@ __EXAMPLE:__
 data-animation="fadeInLeftBig"
 ```
 
-## BELOW ARE SOME OF MY USES FOR EXAMPLES
+## BELOW ARE SOME OF MY USES FOR REFERENCE
 __CALL EXAMPLE USING FLEXSLIDER:__
 ```javascript
  $('.slide .caption .slide-ele').hide().css('display:none;');
