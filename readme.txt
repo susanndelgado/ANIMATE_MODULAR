@@ -1,16 +1,18 @@
 Custom Css3 ANIMATION Module 
  
-  Works with animate.css and jquery to create css3 animations 
-  Looks for data attribute: data-animation on elements to create animations 
+  Works with animate.css and jquery to create css3 animations. 
+  Looks for data attribute: data-animation on elements to create animations.
+  
   This script is written for projects I work on daily so you can use it however you may need to modify it 
   to work for you.
 
+Requires:
   @required jquery 
   @required animate.css 
 
 
 
-CALL EXAMPLES
+CALL EXAMPLES:
   Example of On Slider:
      ANIMATIONS.ANIMATIONTYPE('OBJECT CLASS OR ID',slider.currentSlide, 'ACTION');
   Example of Single Element:
@@ -20,6 +22,6 @@ CALL EXAMPLES
 
   ACTIONS: IN/OUT
   DATA ATTRIBUTE must be defined on target element data-animation="ANIMATE.CSS TYPE NAME"
-  	EXAMPLE:
+  EXAMPLE:
   		data-animation="fadeInLeftBig"
 
