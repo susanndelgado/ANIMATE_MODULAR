@@ -53,8 +53,8 @@ __CALL EXAMPLE USING FLEXSLIDER:__
                     slideshow: true,
                     touch: true,
                     controlsContainer: '.flex-container .container',
-                    prevText: bPrev,       
-                    nextText: bNext,
+                    prevText: 'Prev',       
+                    nextText: 'Next',
                     start: function(slider){
                         //animate
                         if(Modernizr.csstransitions) {
