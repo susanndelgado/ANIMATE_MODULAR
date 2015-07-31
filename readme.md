@@ -32,8 +32,98 @@ __EXAMPLE:__
 data-animation="fadeInLeftBig"
 ```
 
-## BELOW ARE SOME OF MY USES FOR REFERENCE
+## BELOW ARE SOME OF MY USES FOR EXAMPLES
 __CALL EXAMPLE USING FLEXSLIDER:__
+__html:__
+
+```html
+<div class="slider-area cto2016 container-fluid">
+
+    <div class="flexslider cto2016 banner">
+        <ul class="slides">
+            <li class="slide main-slide-0">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="table-an animated fadeIn">
+                    <tbody>
+                        <tr>
+                            <td class="overlay-left">&nbsp;</td>
+                            <td class="container table-cont">
+                            <div class="caption col-md-12">
+
+
+                                <div class="slide-ele element1-1 animated fadeInLeftBig" data-animation="fadeInLeftBig"
+                                     style="display:none;">
+                                    <img class="nosize logo-sld"
+                                         src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/banner-logo.png"
+                                         alt="CTO"/>
+
+                                    <h1>CTO</h1>
+
+                                    <p class="cto-title">
+                                        February 25-26, 2016<br/>
+                                        New York Marriott Marquis<br/>
+                                        1535 Broadway<br/> 
+                                        New York, NY, 10036<br/>
+                                    </p>
+                                </div>
+                            </div>
+                            </td>
+                            <td class="overlay-right">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+
+            <li class="slide main-slide-1">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="table-an">
+                    <tbody>
+                        <tr>
+                            <td class="overlay-left">&nbsp;</td>
+                            <td class="container table-cont">
+                            <div class="caption col-md-12">
+
+
+                                <div class="slide-ele element2-1 animated fadeInLeftBig" data-animation="fadeInLeftBig"
+                                     style="display:none;">
+                                   
+
+                                    <p>Sessions will emphasize both advanced techniques and evidence-based medicine, with a heavy reliance on live case transmissions 
+                                        featuring the world’s leading experts in CTO PCI.</p>
+                                        <div class="table">
+                                        <a href="/cto/the-conference/overview" class="btn btn-primary sli-btn">
+                                            Learn More
+                                        </a></div>
+                                </div>
+                               <!--  <div class="slide-ele element1-2 hidden-phone animated fadeInRightBig"
+                                     data-animation="fadeInRightBig" style="display:none;">
+                                    <h4 class="sld-date no-bt-mar">February 26-27, 2015</h4>
+
+                                    <p class="no-bt-mar">New York Hilton Midtown <br/>New York, NY 10019</p>
+                                </div> -->
+
+                            </div>
+                            </td>
+                            <td class="overlay-right">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </li>
+
+        </ul>
+    </div>
+    <div class="pg-msg">
+        <div class="container">
+            <div class="table col-md-12">
+                <div>
+                    <p>Please check back later for more information on next year’s CTO Summit 2016.</p>
+                </div>
+            </div>
+       </div>
+    </div>
+
+</div>
+```
+__js:__
 ```javascript
  $('.slide .caption .slide-ele').hide().css('display:none;');
         // *===========================================
@@ -53,8 +143,8 @@ __CALL EXAMPLE USING FLEXSLIDER:__
                     slideshow: true,
                     touch: true,
                     controlsContainer: '.flex-container .container',
-                    prevText: 'Prev',       
-                    nextText: 'Next',
+                    prevText: bPrev,       
+                    nextText: bNext,
                     start: function(slider){
                         //animate
                         if(Modernizr.csstransitions) {
