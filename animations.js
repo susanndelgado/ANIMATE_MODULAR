@@ -3,7 +3,6 @@
   * Works with animate.css and jquery to create css3 animations 
   * Looks for data attribute: data-animation on elements to create animations 
   * @author Susan Delgado susanndelgado@gmail.org
-  * @authorUrl www.sdelgado.com
   * @required jquery 
   * @required animate.css 
   * MIT License (MIT)
