@@ -151,21 +151,9 @@ __js:__
 ```
 __CALL EXAMPLE USING WAYPOINTS ON SINGLE ELEMENTS:__
 ```html
-<div class="col-xs-12 col-sm-6 col-md-6">
-  
-                <a href="#"
-                   class="animPos animated fadeInLeftBig" data-animation="fadeInLeftBig" data-count="1">
-                    <img class="cto-hover-slide" src="cto-2015-slide-btn.png"
-                                         alt="View Slides from CTO 2015"/>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <a href="#"
-                   class="animPos animated fadeInRightBig" data-animation="fadeInRightBig" data-count="2">
-                    <img class="cto-hover-cme" src="cto-2015-cme-btn.png"
-                                         alt="Claim Your CME 2015 Credits"/>
-                </a>
-            </div>
+     <div class="animPos" data-animation="fadeInLeftBig" data-count="1">
+        content
+     </div>
 ```
 __js:__
 ```javascript
@@ -194,6 +182,17 @@ __js:__
 
 ```
 __CALL EXAMPLE USING WAYPOINTS IN A GROUP OF ELEMENTS:__
+```html
+<div class="groupAnim">
+    <div class="animPos" data-animation="fadeInLeftBig" data-count="1">
+       content
+    </div>
+    <div 
+       class="animPos" data-animation="fadeInRightBig" data-count="2">
+        content
+    </div>
+</div>
+```
 ```javascript
         
             // //Animate a group in sequa
