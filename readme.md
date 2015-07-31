@@ -48,22 +48,11 @@ __html:__
                             <td class="overlay-left">&nbsp;</td>
                             <td class="container table-cont">
                             <div class="caption col-md-12">
-
-
-                                <div class="slide-ele element1-1 animated fadeInLeftBig" data-animation="fadeInLeftBig"
-                                     style="display:none;">
-                                    <img class="nosize logo-sld"
-                                         src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/banner-logo.png"
-                                         alt="CTO"/>
-
-                                    <h1>CTO</h1>
-
-                                    <p class="cto-title">
-                                        February 25-26, 2016<br/>
-                                        New York Marriott Marquis<br/>
-                                        1535 Broadway<br/> 
-                                        New York, NY, 10036<br/>
-                                    </p>
+                                <div class="slide-ele element1-1 animated fadeInLeftBig" data-animation="fadeInLeftBig" style="display:none;">
+                                   element content
+                                </div>
+                                 <div class="slide-ele element1-2 animated fadeInLeftBig" data-animation="fadeInLeftBig" style="display:none;">
+                                   element content
                                 </div>
                             </div>
                             </td>
@@ -80,26 +69,9 @@ __html:__
                             <td class="overlay-left">&nbsp;</td>
                             <td class="container table-cont">
                             <div class="caption col-md-12">
-
-
-                                <div class="slide-ele element2-1 animated fadeInLeftBig" data-animation="fadeInLeftBig"
-                                     style="display:none;">
-                                   
-
-                                    <p>Sessions will emphasize both advanced techniques and evidence-based medicine, with a heavy reliance on live case transmissions 
-                                        featuring the world’s leading experts in CTO PCI.</p>
-                                        <div class="table">
-                                        <a href="/cto/the-conference/overview" class="btn btn-primary sli-btn">
-                                            Learn More
-                                        </a></div>
+                                <div class="slide-ele element2-1 animated fadeInLeftBig" data-animation="fadeInLeftBig"style="display:none;">content</div>
+                                <div class="slide-ele element2-2 animated fadeInLeftBig" data-animation="fadeInLeftBig"style="display:none;">content</div>
                                 </div>
-                               <!--  <div class="slide-ele element1-2 hidden-phone animated fadeInRightBig"
-                                     data-animation="fadeInRightBig" style="display:none;">
-                                    <h4 class="sld-date no-bt-mar">February 26-27, 2015</h4>
-
-                                    <p class="no-bt-mar">New York Hilton Midtown <br/>New York, NY 10019</p>
-                                </div> -->
-
                             </div>
                             </td>
                             <td class="overlay-right">&nbsp;</td>
@@ -110,15 +82,6 @@ __html:__
             </li>
 
         </ul>
-    </div>
-    <div class="pg-msg">
-        <div class="container">
-            <div class="table col-md-12">
-                <div>
-                    <p>Please check back later for more information on next year’s CTO Summit 2016.</p>
-                </div>
-            </div>
-       </div>
     </div>
 
 </div>
@@ -190,16 +153,16 @@ __CALL EXAMPLE USING WAYPOINTS ON SINGLE ELEMENTS:__
 ```html
 <div class="col-xs-12 col-sm-6 col-md-6">
   
-                <a href="http://www.tctmd.com/list.aspx?fid=1011530"
+                <a href="#"
                    class="animPos animated fadeInLeftBig" data-animation="fadeInLeftBig" data-count="1">
-                    <img class="cto-hover-slide" src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/cto-2015-slide-btn.png"
+                    <img class="cto-hover-slide" src="cto-2015-slide-btn.png"
                                          alt="View Slides from CTO 2015"/>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6">
-                <a href="http://crf.planion.com/Web.Admin/Login?ACCOUNT=CRF&CONF=CTO2015"
+                <a href="#"
                    class="animPos animated fadeInRightBig" data-animation="fadeInRightBig" data-count="2">
-                    <img class="cto-hover-cme" src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/cto-2015-cme-btn.png"
+                    <img class="cto-hover-cme" src="cto-2015-cme-btn.png"
                                          alt="Claim Your CME 2015 Credits"/>
                 </a>
             </div>
