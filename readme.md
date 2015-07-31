@@ -187,6 +187,24 @@ __js:__
 
 ```
 __CALL EXAMPLE USING WAYPOINTS ON SINGLE ELEMENTS:__
+```html
+<div class="col-xs-12 col-sm-6 col-md-6">
+  
+                <a href="http://www.tctmd.com/list.aspx?fid=1011530"
+                   class="animPos animated fadeInLeftBig" data-animation="fadeInLeftBig" data-count="1">
+                    <img class="cto-hover-slide" src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/cto-2015-slide-btn.png"
+                                         alt="View Slides from CTO 2015"/>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <a href="http://crf.planion.com/Web.Admin/Login?ACCOUNT=CRF&CONF=CTO2015"
+                   class="animPos animated fadeInRightBig" data-animation="fadeInRightBig" data-count="2">
+                    <img class="cto-hover-cme" src="<?php echo $this->baseurl; ?>/images/meetings/ctolm/2016/template/cto-2015-cme-btn.png"
+                                         alt="Claim Your CME 2015 Credits"/>
+                </a>
+            </div>
+```
+__js:__
 ```javascript
         // *==============================================================================
         //  WAYPOINTS : 
